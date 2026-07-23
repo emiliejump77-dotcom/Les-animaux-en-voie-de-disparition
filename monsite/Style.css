@@ -1,0 +1,28 @@
+h1{
+    color:gold;
+    font-size:30px;
+}
+#image2{
+	width:400px;
+}
+.couleur{
+	color:purple;
+}
+header{
+	background-color: darkgray;
+}
+.couleur2{
+	color: red;
+}
+#moi{
+	background-color: darkgrey;
+}
+body{
+	background: url("fond.jpg")
+}
+p{
+	background-color: white;
+}
+#B{
+	background-color: white;
+}

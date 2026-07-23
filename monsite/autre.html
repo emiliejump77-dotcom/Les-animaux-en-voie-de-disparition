@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <title>Les animaux en vois de disparition</title>
+   <link rel="stylesheet" type="text/css" href="Style.css">
+</head>
+<body> 
+  <header>
+       <h1> Des especes menacés</h1>
+       <nav> 
+          <ul>
+               <li><a href="index.html">acceuil</a></li>
+               <li><a href="Contact.html">contact</a></li>
+          </ul>
+       </nav>
+   </header> 
+  <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Édition en temps réel</title>
+    <style>
+        #output {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 10px;
+            min-height: 100px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Écrivez la somme que vous souhaitez donner</h1>
+    <textarea id="input" placeholder="Tapez ici..."></textarea>
+    <div id="output"></div>
+
+    <script>
+        const input = document.getElementById('input');
+        const output = document.getElementById('output');
+
+        input.addEventListener('input', () => {
+            output.textContent = input.value;
+        });
+    </script>
+</body>
+</html>
+</body>
+<footer id="moi">site crée par Emilie</footer>
+</html>
