@@ -1,19 +1,25 @@
 h1{
-    color:gold;
+    color:blueviolet;
     font-size:30px;
 }
 #image2{
 	width:400px;
 }
 .couleur{
-	color:purple;
+	color: darkgray;
 }
 header{
-	background-color: darkgray;
+	background-color: beige;
 }
 .couleur2{
 	color: red;
 }
-.moi{
-	background-color: darkgrey;
+p{
+	background-color: white;
+}
+#B{
+	background-color: white;
+}
+#N{
+	background-color: beige;
 }
